@@ -53,10 +53,6 @@ body {
     height: 1px;
     width: 0%;
     background-color: #0082a7; /*#CE3B2F*/
-    -webkit-transition: width 0.5s ease;
-    -moz-transition: width 0.5s ease;
-    -ms-transition: width 0.5s ease;
-    transition: width 0.5s ease;
 }
 #body a.highlight:hover:after, #body a.highlight:focus:after {
     width: 100%;
@@ -102,9 +98,6 @@ body {
   background-image: none !important;
   border: 1px solid transparent !important;
   border-radius: 4px !important;
-  -webkit-transition: all 0.15s !important;
-     -moz-transition: all 0.15s !important;
-          transition: all 0.15s !important;
 }
 .btn:focus {
   /*outline: thin dotted;
@@ -250,5 +243,5 @@ figcaption h4 {
 }
 
 .is-sticky #top-bar {
-  box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.1); 
+  box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.1);
 }
