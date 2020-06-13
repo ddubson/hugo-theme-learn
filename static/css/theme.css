@@ -490,6 +490,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     margin-bottom: 5rem;
     margin-right: 4rem;
     margin-left: 4rem;
+    max-width: 750px;
 }
 
 #chapter {
@@ -748,7 +749,7 @@ pre {
     background: #282c34;
     border: 0;
     border-radius: 2px;
-    line-height: 1.15;
+    line-height: 1.2;
 }
 
 pre code {
@@ -801,7 +802,7 @@ hr {
 
 #body-inner pre {
     white-space: pre-wrap;
-    line-height: 1.5rem;
+    line-height: 1.7rem;
     border-radius: 0.6rem;
 }
 
@@ -1209,6 +1210,10 @@ td {
     #body {
         margin-left: 0;
         width: 100%;
+    }
+
+    #body-inner {
+      margin: 0 1rem;
     }
 
     .sidebar-hidden {
